@@ -1,2 +1,9 @@
-# NoobChain
-Short program showing simple blockchain working with validation,hashes, data, blacks etc. 
+Blocks store data, a timestamp, and a reference to the previous block's hash.
+
+Each block is hashed using the SHA-256 algorithm, ensuring integrity.
+
+Blocks are linked together, forming a chain where each block points to the previous one.
+
+Validation ensures the blockchain is secure by checking if hashes are consistent.
+
+I was being inspired by someone else's work really helpfull shoutout to CodeCrafters, Inc.
